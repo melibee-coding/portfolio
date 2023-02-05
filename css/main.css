@@ -1,0 +1,241 @@
+/****** Global Styles ******/
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #5e5d5e;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+
+.homepage-hero {
+    background: url("../img/full-background.png") no-repeat #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+header h1 {
+    float: left;
+    width: 300px;
+    padding: 65px 0px 65px 25px;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    color: #7b7e54;
+}
+
+header nav {
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    /*underline added to links for accessiblity*/
+    text-decoration: underline;
+    padding-left: 50px;
+    /*nav color matches default text color. Color on
+design comp did not pass WCAG 2.1 color contrast
+on image background. Font size also increased 
+to be large text that is not bold as requried to
+pass color contrast requirments. */
+    color: #5e5d5e;
+    font-size: 24px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    padding: 20px 0px 20px 25px;
+    line-height: 80px;
+    font-size: 72px;
+    font-family: "Lora", serif;
+    color: #817f80;
+}
+
+/****** About Styles ******/
+
+#about .content-wrapper {
+    padding: 80px 0px;
+}
+
+#about h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    float: left;
+    width: 500px;
+    padding: 0px 50px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/****** Skill Styles ******/
+
+#skills {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#skills .content-wrapper {
+    padding: 115px 0px;
+}
+
+#skills .skill-list {
+    float: left;
+    width: 300px;
+    padding: 0px 50px;
+}
+
+#skills h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#skills p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+/****** Contact Styles ******/
+
+#contact {
+    background: #f9e9e9;
+}
+
+#contact .content-wrapper {
+    padding: 110px 0px;
+}
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+}
+
+#contact-main-img {
+    width: 500px;
+    height: 300px;
+    border: 10px solid white;
+    margin: 0px 50px;
+    box-sizing: border-box;
+}
+
+#contact .contact-info {
+    float: left;
+    padding-left: 100px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+#contact .contact-info h2 {
+    font-size: 36px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+#contact .contact-info h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#contact-email-header {
+    margin-bottom: 5px;
+}
+
+#contact-social-media-header {
+    margin: 20px 0px 5px 0px;
+}
+
+#contact #envelope {
+    margin-right: 8px;
+}
+
+#contact a {
+    /*underline added to email linke for accessiblity*/
+    text-decoration: underline;
+    font-size: 24px;
+    line-height: 36px;
+    color: #5e5d5e;
+}
+
+#contact ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+#contact ul li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+/**********Projects Page Styles*********/
+
+/**********Projects Page HEADER styles*********/
+
+.projects-header {
+    background: #f9efef;
+}
+
+/**********Project Page Projects EXAMPLES Sytles*********/
+
+#projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0px;
+}
+
+#projects .projects-example {
+    float: left;
+    width: 300px;
+    padding: 0px 50px;
+}
+
+#projects .projects-example img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#projects h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#projects h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#projects p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
